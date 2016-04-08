@@ -1,0 +1,13 @@
+body {
+	background: #111;
+	
+}
+
+p.primary{
+	font-size: 20px;
+}
+
+div.jumbotron {
+	padding:50px 100px 40px 100px;
+}
+

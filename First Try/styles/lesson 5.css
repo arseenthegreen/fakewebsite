@@ -1,0 +1,41 @@
+.myPanel{
+border:1px solid #608F69;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+box-shadow:0px 0px 4px #ccc;
+margin:3%;
+}
+
+.myPanel .header{
+background:#90D49E;
+border:1px solid #608F69;
+border-radius:5px 5px 0 0;
+-webkit-border-radius:5px 5px 0 0;
+-moz-border-radius:5px 5px 0 0;
+-o-border-radius:5px 5px 0 0;
+color:#608F69;
+padding:10px 20px;
+}
+
+.myPanel .body{
+	padding:10px 20px;
+}
+
+.myPanel .showOnHover{
+	display:none;
+}
+
+.myPanel:hover {
+	box-shadow: 0px 0px 8px black;
+	border:2px solid #608F69;
+}
+
+.myPanel:hover .showOnHover{
+	display:inline-block;
+}
+
+.primary{
+	text-align: center;
+}
